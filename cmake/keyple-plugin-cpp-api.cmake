@@ -27,8 +27,8 @@ SET(EP_KEYPLE_PLUGIN "keyple-plugin-cpp-api")
 FetchContent_Populate (
 	${EP_KEYPLE_PLUGIN}
 	
-	GIT_REPOSITORY https://github.com/calypsonet/${EP_KEYPLE_PLUGIN}.git
-	GIT_TAG        ${KEYPLE_VERSION}
+	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_PLUGIN}.git
+	GIT_TAG        main
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_PLUGIN}
 	UPDATE_DISCONNECTED ON

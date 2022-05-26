@@ -27,7 +27,7 @@ SET(EP_KEYPLE_SERVICE "keyple-service-cpp-lib")
 FetchContent_Populate (
 	${EP_KEYPLE_SERVICE}
 	
-	GIT_REPOSITORY https://github.com/calypsonet/${EP_KEYPLE_SERVICE}.git
+	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_SERVICE}.git
 	GIT_TAG        main #${KEYPLE_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_SERVICE}

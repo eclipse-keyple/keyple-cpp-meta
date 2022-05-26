@@ -26,7 +26,7 @@ SET(EP_KEYPLE_PLUGIN_STUB "keyple-plugin-stub-cpp-lib")
 FetchContent_Populate (
 	${EP_KEYPLE_PLUGIN_STUB}
 
-	GIT_REPOSITORY https://github.com/calypsonet/${EP_KEYPLE_PLUGIN_STUB}.git
+	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_PLUGIN_STUB}.git
 	GIT_TAG        ${KEYPLE_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_PLUGIN_STUB}
