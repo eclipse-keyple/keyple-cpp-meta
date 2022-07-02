@@ -36,6 +36,6 @@ build
 externals
 out
 
-# IDE files
+# IDE files and directories
 CMakeSettings.json
-
+.vs
