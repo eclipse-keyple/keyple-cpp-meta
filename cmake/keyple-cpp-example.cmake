@@ -27,7 +27,7 @@ SET(EP_KEYPLE_EXAMPLE "keyple-cpp-example")
 FetchContent_Populate (
 	${EP_KEYPLE_EXAMPLE}
 	
-	GIT_REPOSITORY https://github.com/calypsonet/${EP_KEYPLE_EXAMPLE}.git
+	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_EXAMPLE}.git
 	GIT_TAG        ${KEYPLE_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_EXAMPLE}

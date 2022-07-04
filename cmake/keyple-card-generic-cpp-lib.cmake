@@ -27,7 +27,7 @@ SET(EP_KEYPLE_CARD_GENERIC "keyple-card-generic-cpp-lib")
 FetchContent_Populate (
 	${EP_KEYPLE_CARD_GENERIC}
 	
-	GIT_REPOSITORY https://github.com/calypsonet/${EP_KEYPLE_CARD_GENERIC}.git
+	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_CARD_GENERIC}.git
 	GIT_TAG        ${KEYPLE_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_CARD_GENERIC}
