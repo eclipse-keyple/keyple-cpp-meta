@@ -26,9 +26,9 @@ SET(EP_KEYPLE_UTIL "keyple-util-cpp-lib")
 
 FetchContent_Populate (
 	${EP_KEYPLE_UTIL}
-	
+
 	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_UTIL}.git
-	GIT_TAG        ${KEYPLE_VERSION}
+	GIT_TAG        2.1.0
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_UTIL}
 	UPDATE_DISCONNECTED ON
