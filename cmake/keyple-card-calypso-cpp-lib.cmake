@@ -27,7 +27,7 @@ FetchContent_Populate (
 	${EP_KEYPLE_CARD_CALYPSO}
 
 	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_CARD_CALYPSO}.git
-	GIT_TAG        ${KEYPLE_VERSION}
+	GIT_TAG        2.2.0
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_CARD_CALYPSO}
 	UPDATE_DISCONNECTED ON
