@@ -28,7 +28,7 @@ FetchContent_Populate (
 	${EP_KEYPLE_UTIL}
 
 	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_UTIL}.git
-	GIT_TAG        2.1.0
+	GIT_TAG        2.3.0
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_UTIL}
 	UPDATE_DISCONNECTED ON

@@ -26,9 +26,9 @@ SET(EP_CALYPSONET_TERMINAL_CALYPSO "calypsonet-terminal-calypso-cpp-api")
 
 FetchContent_Populate (
 	${EP_CALYPSONET_TERMINAL_CALYPSO}
-	
+
 	GIT_REPOSITORY https://github.com/calypsonet/${EP_CALYPSONET_TERMINAL_CALYPSO}.git
-	GIT_TAG        ${CALYPSONET_VERSION}
+	GIT_TAG        1.2.0
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_CALYPSONET_TERMINAL_CALYPSO}
 	UPDATE_DISCONNECTED ON
