@@ -39,3 +39,4 @@ externals
 # IDE files
 CMakeSettings.json
 .vscode
+.vs
