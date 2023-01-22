@@ -1,5 +1,5 @@
 # *************************************************************************************************
-# Copyright (c) 2021 Calypso Networks Association https://calypsonet.org/                         *
+# Copyright (c) 2022 Calypso Networks Association https://calypsonet.org/                         *
 #                                                                                                 *
 # See the NOTICE file(s) distributed with this work for additional information regarding          *
 # copyright ownership.                                                                            *
@@ -22,12 +22,13 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_CARD_CALYPSO "keyple-card-calypso-cpp-lib")
+SET(EP_VERSION "2.2.1")
 
 FetchContent_Populate (
 	${EP_KEYPLE_CARD_CALYPSO}
 
-	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_CARD_CALYPSO}.git
-	GIT_TAG        2.2.0
+	GIT_REPOSITORY git@github.com:eclipse/${EP_KEYPLE_CARD_CALYPSO}.git
+	GIT_TAG        ${EP_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_CARD_CALYPSO}
 	UPDATE_DISCONNECTED ON

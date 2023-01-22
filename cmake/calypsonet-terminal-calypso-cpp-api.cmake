@@ -1,6 +1,5 @@
 # *************************************************************************************************
-# Copyright (c) 2021 Calypso Networks Association                                                 *
-# https://www.calypsonet-asso.org/                                                                *
+# Copyright (c) 2022 Calypso Networks Association https://calypsonet.org/                         *
 #                                                                                                 *
 # See the NOTICE file(s) distributed with this work for additional information regarding          *
 # copyright ownership.                                                                            *
@@ -23,12 +22,13 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_CALYPSONET_TERMINAL_CALYPSO "calypsonet-terminal-calypso-cpp-api")
+SET(EP_VERSION "1.2.0")
 
 FetchContent_Populate (
 	${EP_CALYPSONET_TERMINAL_CALYPSO}
 
-	GIT_REPOSITORY https://github.com/calypsonet/${EP_CALYPSONET_TERMINAL_CALYPSO}.git
-	GIT_TAG        1.2.0
+	GIT_REPOSITORY git@github.com:calypsonet/${EP_CALYPSONET_TERMINAL_CALYPSO}.git
+	GIT_TAG        ${EP_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_CALYPSONET_TERMINAL_CALYPSO}
 	UPDATE_DISCONNECTED ON
