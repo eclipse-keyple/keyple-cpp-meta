@@ -1,5 +1,5 @@
 # *************************************************************************************************
-# Copyright (c) 2022 Calypso Networks Association https://calypsonet.org/                         *
+# Copyright (c) 2023 Calypso Networks Association https://calypsonet.org/                         *
 #                                                                                                 *
 # See the NOTICE file(s) distributed with this work for additional information regarding          *
 # copyright ownership.                                                                            *
@@ -22,7 +22,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_CALYPSONET_TERMINAL_CALYPSO "calypsonet-terminal-calypso-cpp-api")
-SET(EP_VERSION "1.2.0")
+SET(EP_VERSION "1.2.0.1")
 
 FetchContent_Populate (
 	${EP_CALYPSONET_TERMINAL_CALYPSO}

@@ -1,5 +1,5 @@
 # *************************************************************************************************
-# Copyright (c) 2022 Calypso Networks Association https://calypsonet.org/                         *
+# Copyright (c) 2023 Calypso Networks Association https://calypsonet.org/                         *
 #                                                                                                 *
 # See the NOTICE file(s) distributed with this work for additional information regarding          *
 # copyright ownership.                                                                            *
@@ -22,7 +22,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_CARD_CALYPSO "keyple-card-calypso-cpp-lib")
-SET(EP_VERSION "2.2.1")
+SET(EP_VERSION "2.2.1.1")
 
 FetchContent_Populate (
 	${EP_KEYPLE_CARD_CALYPSO}
