@@ -22,7 +22,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_CARD_CALYPSO "keyple-card-calypso-cpp-lib")
-SET(EP_VERSION "2.2.1.1")
+SET(EP_VERSION "2.2.2")
 
 FetchContent_Populate (
 	${EP_KEYPLE_CARD_CALYPSO}
