@@ -23,7 +23,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_CALYPSONET_TERMINAL_READER "calypsonet-terminal-reader-cpp-api")
-SET(EP_VERSION "1.1.0")
+SET(EP_VERSION "1.1.0.1")
 
 FetchContent_Populate (
 	${EP_CALYPSONET_TERMINAL_READER}
