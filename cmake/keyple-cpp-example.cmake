@@ -1,6 +1,5 @@
 # *************************************************************************************************
-# Copyright (c) 2021 Calypso Networks Association                                                 *
-# https://www.calypsonet-asso.org/                                                                *
+# Copyright (c) 2023 Calypso Networks Association https://calypsonet.org/                         *
 #                                                                                                 *
 # See the NOTICE file(s) distributed with this work for additional information regarding          *
 # copyright ownership.                                                                            *
@@ -23,12 +22,13 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_EXAMPLE "keyple-cpp-example")
+SET(EP_VERSION "2022-11-17")
 
 FetchContent_Populate (
 	${EP_KEYPLE_EXAMPLE}
-	
-	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_EXAMPLE}.git
-	GIT_TAG        ${KEYPLE_VERSION}
+
+	GIT_REPOSITORY git@github.com:eclipse/${EP_KEYPLE_EXAMPLE}.git
+	GIT_TAG        ${EP_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_EXAMPLE}
 	UPDATE_DISCONNECTED ON

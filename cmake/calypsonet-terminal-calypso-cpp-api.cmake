@@ -22,7 +22,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_CALYPSONET_TERMINAL_CALYPSO "calypsonet-terminal-calypso-cpp-api")
-SET(EP_VERSION "1.4.0.1")
+SET(EP_VERSION "1.4.1")
 
 FetchContent_Populate (
 	${EP_CALYPSONET_TERMINAL_CALYPSO}
