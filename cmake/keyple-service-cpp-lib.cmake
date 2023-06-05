@@ -22,7 +22,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_SERVICE "keyple-service-cpp-lib")
-SET(EP_VERSION "2.1.1")
+SET(EP_VERSION "2.1.1.1")
 
 FetchContent_Populate (
 	${EP_KEYPLE_SERVICE}
