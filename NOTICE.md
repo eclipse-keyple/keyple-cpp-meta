@@ -23,15 +23,3 @@ of the Eclipse Public License v. 2.0 which is available at
 http://www.eclipse.org/org/documents/epl-2.0/EPL-2.0.html
 
 SPDX-License-Identifier: EPL-2.0
-   
-## Third-party Content
-
-Calypsonet Terminal Reader API (1.0.0)
-
-* License: [Eclipse Public License 2.0](http://www.eclipse.org/legal/epl-2.0)
-* Sources: https://github.com/calypsonet/calypsonet-terminal-reader-cpp-api
-
-Calypsonet Terminal Card API (1.0.0)
-
-* License: [Eclipse Public License 2.0](http://www.eclipse.org/legal/epl-2.0)
-* Sources: https://github.com/calypsonet/calypsonet-terminal-card-cpp-api
