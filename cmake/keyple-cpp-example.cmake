@@ -22,7 +22,7 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_EXAMPLE "keyple-cpp-example")
-SET(EP_VERSION "2022-11-17.1")
+SET(EP_VERSION "2022-11-17.2")
 
 FetchContent_Populate (
 	${EP_KEYPLE_EXAMPLE}
