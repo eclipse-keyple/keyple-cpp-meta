@@ -23,12 +23,13 @@ INCLUDE(FetchContent)
 
 # Project
 SET(EP_KEYPLE_COMMON "keyple-common-cpp-api")
+SET(EP_VERSION "2.0.0.1")
 
 FetchContent_Populate (
 	${EP_KEYPLE_COMMON}
-	
+
 	GIT_REPOSITORY https://github.com/eclipse/${EP_KEYPLE_COMMON}.git
-	GIT_TAG        ${KEYPLE_VERSION}
+	GIT_TAG        ${EP_VERSION}
 	GIT_SHALLOW    ON
 	SOURCE_DIR     ../externals/${EP_KEYPLE_COMMON}
 	UPDATE_DISCONNECTED ON

@@ -11,7 +11,7 @@
 # SPDX-License-Identifier: EPL-2.0                                                                *
 # *************************************************************************************************/
 
-CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.5)
 
 SET(CMAKE_LEGACY_CYGWIN_WIN32 0)
 SET(CMAKE_CXX_STANDARD 11)
@@ -19,6 +19,7 @@ SET(CMAKE_CXX_STANDARD 11)
 # Compilers
 SET(CMAKE_C_COMPILER_WORKS 1)
 SET(CMAKE_CXX_COMPILER_WORKS 1)
+SET(CMAKE_POLICY_VERSION_MINIMUM 3.5)
 
 PROJECT(Project)
 
@@ -38,9 +39,9 @@ SET(KEYPLE_VERSION master)
 INCLUDE(cmake/calypsonet-terminal-calypso-cpp-api.cmake)
 INCLUDE(cmake/calypsonet-terminal-card-cpp-api.cmake)
 INCLUDE(cmake/calypsonet-terminal-reader-cpp-api.cmake)
+
 INCLUDE(cmake/keyple-common-cpp-api.cmake)
 INCLUDE(cmake/keyple-plugin-cpp-api.cmake)
-
 INCLUDE(cmake/keyple-util-cpp-lib.cmake)
 INCLUDE(cmake/keyple-plugin-pcsc-cpp-lib.cmake)
 INCLUDE(cmake/keyple-plugin-stub-cpp-lib.cmake)
